@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="css/stylesheet.css" />
+  </head>
+
+  <body>
+    <nav>
+      <a id="view">View High Scores</a>
+      <h1 class="time">Time left:</h1>
+    </nav>
+    <section id="startPage">
+      <h1>Coding Quiz</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facere
+        earum illum eaque ab asperiores commodi dolor architecto natus
+        praesentium?
+      </p>
+      <button class="startBtn">START</button>
+    </section>
+
+    <section id="quizPage" class="hide">
+      <h1 id="questionTitle">Questions Show Here:</h1>
+
+      <div id="answerOptions"></div>
+    </section>
+
+    <section id="endGame" class="hide">
+      <h1>Game Over</h1>
+      <p id="score">Your Score:</p>
+      <label for="">Your Initial: </label>
+      <input type="text" id="initial" />
+      <button id="enter">Submit</button>
+    </section>
+
+    <section id="highScorePage" class="hide">
+      <div id="board">
+        <ul id="boardList"></ul>
+      </div>
+      <button id="tryAgain">Try Again</button>
+      <button id="clearScore">Clear Score</button>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

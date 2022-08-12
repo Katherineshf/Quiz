@@ -1,0 +1,32 @@
+
+body{
+    padding:50px;
+}
+
+.hide{
+    display:none;
+}
+
+
+button {
+    display: block;
+    font-family: sans-serif;
+    text-align: center;
+    color: #eeeeee;
+    background-color: rgb(71, 188, 188);
+    border-radius: 8px;
+    font-size: 14px;
+    width: 150px;
+    height: 30px;
+    margin: 10px;
+  }
+
+  .time{
+    display: inline-block;
+    margin-left: 680px;
+    margin-top: 0;
+    font-family:'Courier New', Courier, monospace;
+    color: black;
+    font-size: medium;
+    text-align: center;
+}
